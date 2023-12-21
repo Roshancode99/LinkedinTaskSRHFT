@@ -1,0 +1,462 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{% static 'layout.css' %}">
+    <title>City Break Net Report</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <nav class="navbar">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">CLIENT_IDS</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="containercyan">
+        <select name="dropdown" class = "dropdown"> 
+            <option value="option1">43412</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select>
+        <i class="fas fa-sync-alt refresh-icon"  id = "fa"></i>
+        <span class = "direct">
+            <span class = "align1">SellValue:  <span class="small-text">346534.23</span></span>
+            <span class = "align2">BuyValue:  <span class="small-text">346534.23</span></span>
+            <span class = "align3">NetQty:  <span class="small-text">0</span></span>
+            <span class = "align4">TotalPNL:  <span class="small-text">5791.13</span></span>
+        </span>
+        
+    </div>
+    <div class="greencontainer"></div>
+    <div class = "tablecustom">
+        <table class="custom-table">
+            <div class = "cyanhead">
+                <tr>
+                    <th></th>
+                    <th>Client</th>
+                    <th>Branch</th>
+                    <th>Name</th>
+                    <th>Symbol</th>
+                    <th>Instrument Type</th>
+                    <th>Expiry Date</th>
+                    <th>Option Type</th>
+                    <th>Strike Price</th>
+                    <th>BfQty</th>
+                    <th>BfRate</th>
+                    <th>DayByQty</th>
+                    <th>DayByValue</th>
+                    <th>DaySetQty</th>
+                    <th>DaySellValue</th>
+                    <th>DayNetQty</th>
+                    <th>NetQty</th>
+                    <th>DayNetValue</th>
+                    <th>NetValue</th>
+                    <th>DayMTM</th>
+                </tr>
+            </div>
+                <tr>
+                    <td></td>
+                    <td>43412</td>
+                    <td>HO</td>
+                    <td>CE01</td>
+                    <td>FINNIFTY</td>
+                    <td>OPTIDX</td>
+                    <td>19-12-2023</td>
+                    <td>CE</td>
+                    <td>21650</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>260</td>
+                    <td>2189237</td>
+                    <td>480</td>
+                    <td>32706</td>
+                    <td class = "bggreen">0</td>
+                    <td class = "bggreen">0</td>
+                    <td>-6940</td>
+                    <td>1423.2</td>
+                    <td>0</td>
+
+                </tr>
+                <tr class = "greybg">
+                    <td></td>
+                    <td>43412</td>
+                    <td>HO</td>
+                    <td>CE01</td>
+                    <td>FINNIFTY</td>
+                    <td>OPTIDX</td>
+                    <td>19-12-2023</td>
+                    <td>CE</td>
+                    <td>21650</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>260</td>
+                    <td>2189237</td>
+                    <td>480</td>
+                    <td>32706</td>
+                    <td class = "bggreen">0</td>
+                    <td class = "bggreen">0</td>
+                    <td>-6940</td>
+                    <td>1423.2</td>
+                    <td>0</td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>43412</td>
+                    <td>HO</td>
+                    <td>CE01</td>
+                    <td>FINNIFTY</td>
+                    <td>OPTIDX</td>
+                    <td>19-12-2023</td>
+                    <td>CE</td>
+                    <td>21650</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>260</td>
+                    <td>2189237</td>
+                    <td>480</td>
+                    <td>32706</td>
+                    <td class = "bggreen">0</td>
+                    <td class = "bggreen">0</td>
+                    <td>-6940</td>
+                    <td>1423.2</td>
+                    <td>0</td>
+
+                </tr>
+                <tr class = "greybg">
+                    <td></td>
+                    <td>43412</td>
+                    <td>HO</td>
+                    <td>CE01</td>
+                    <td>FINNIFTY</td>
+                    <td>OPTIDX</td>
+                    <td>19-12-2023</td>
+                    <td>CE</td>
+                    <td>21650</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>260</td>
+                    <td>2189237</td>
+                    <td>480</td>
+                    <td>32706</td>
+                    <td class = "bggreen">0</td>
+                    <td class = "bggreen">0</td>
+                    <td>-6940</td>
+                    <td>1423.2</td>
+                    <td>0</td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>43412</td>
+                    <td>HO</td>
+                    <td>CE01</td>
+                    <td>FINNIFTY</td>
+                    <td>OPTIDX</td>
+                    <td>19-12-2023</td>
+                    <td>CE</td>
+                    <td>21650</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>260</td>
+                    <td>2189237</td>
+                    <td>480</td>
+                    <td>32706</td>
+                    <td class = "bggreen">0</td>
+                    <td class = "bggreen">0</td>
+                    <td>-6940</td>
+                    <td>1423.2</td>
+                    <td>0</td>
+
+                </tr>
+                <tr class = "greybg">
+                    <td></td>
+                    <td>43412</td>
+                    <td>HO</td>
+                    <td>CE01</td>
+                    <td>FINNIFTY</td>
+                    <td>OPTIDX</td>
+                    <td>19-12-2023</td>
+                    <td>CE</td>
+                    <td>21650</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>260</td>
+                    <td>2189237</td>
+                    <td>480</td>
+                    <td>32706</td>
+                    <td class = "bggreen">0</td>
+                    <td class = "bggreen">0</td>
+                    <td>-6940</td>
+                    <td>1423.2</td>
+                    <td>0</td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>43412</td>
+                    <td>HO</td>
+                    <td>CE01</td>
+                    <td>FINNIFTY</td>
+                    <td>OPTIDX</td>
+                    <td>19-12-2023</td>
+                    <td>CE</td>
+                    <td>21650</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>260</td>
+                    <td>2189237</td>
+                    <td>480</td>
+                    <td>32706</td>
+                    <td class = "bggreen">0</td>
+                    <td class = "bggreen">0</td>
+                    <td>-6940</td>
+                    <td>1423.2</td>
+                    <td>0</td>
+
+                </tr>
+                <tr class = "greybg">
+                    <td></td>
+                    <td>43412</td>
+                    <td>HO</td>
+                    <td>CE01</td>
+                    <td>FINNIFTY</td>
+                    <td>OPTIDX</td>
+                    <td>19-12-2023</td>
+                    <td>CE</td>
+                    <td>21650</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>260</td>
+                    <td>2189237</td>
+                    <td>480</td>
+                    <td>32706</td>
+                    <td class = "bggreen">0</td>
+                    <td class = "bggreen">0</td>
+                    <td>-6940</td>
+                    <td>1423.2</td>
+                    <td>0</td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>43412</td>
+                    <td>HO</td>
+                    <td>CE01</td>
+                    <td>FINNIFTY</td>
+                    <td>OPTIDX</td>
+                    <td>19-12-2023</td>
+                    <td>CE</td>
+                    <td>21650</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>260</td>
+                    <td>2189237</td>
+                    <td>480</td>
+                    <td>32706</td>
+                    <td class = "bggreen">0</td>
+                    <td class = "bggreen">0</td>
+                    <td>-6940</td>
+                    <td>1423.2</td>
+                    <td>0</td>
+
+                </tr>
+                <tr class = "greybg">
+                    <td></td>
+                    <td>43412</td>
+                    <td>HO</td>
+                    <td>CE01</td>
+                    <td>FINNIFTY</td>
+                    <td>OPTIDX</td>
+                    <td>19-12-2023</td>
+                    <td>CE</td>
+                    <td>21650</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>260</td>
+                    <td>2189237</td>
+                    <td>480</td>
+                    <td>32706</td>
+                    <td class = "bggreen">0</td>
+                    <td class = "bggreen">0</td>
+                    <td>-6940</td>
+                    <td>1423.2</td>
+                    <td>0</td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>43412</td>
+                    <td>HO</td>
+                    <td>CE01</td>
+                    <td>FINNIFTY</td>
+                    <td>OPTIDX</td>
+                    <td>19-12-2023</td>
+                    <td>CE</td>
+                    <td>21650</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>260</td>
+                    <td>2189237</td>
+                    <td>480</td>
+                    <td>32706</td>
+                    <td class = "bggreen">0</td>
+                    <td class = "bggreen">0</td>
+                    <td>-6940</td>
+                    <td>1423.2</td>
+                    <td>0</td>
+
+                </tr>
+                <tr class = "greybg">
+                    <td></td>
+                    <td>43412</td>
+                    <td>HO</td>
+                    <td>CE01</td>
+                    <td>FINNIFTY</td>
+                    <td>OPTIDX</td>
+                    <td>19-12-2023</td>
+                    <td>CE</td>
+                    <td>21650</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>260</td>
+                    <td>2189237</td>
+                    <td>480</td>
+                    <td>32706</td>
+                    <td class = "bggreen">0</td>
+                    <td class = "bggreen">0</td>
+                    <td>-6940</td>
+                    <td>1423.2</td>
+                    <td>0</td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>43412</td>
+                    <td>HO</td>
+                    <td>CE01</td>
+                    <td>FINNIFTY</td>
+                    <td>OPTIDX</td>
+                    <td>19-12-2023</td>
+                    <td>CE</td>
+                    <td>21650</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>260</td>
+                    <td>2189237</td>
+                    <td>480</td>
+                    <td>32706</td>
+                    <td class = "bggreen">0</td>
+                    <td class = "bggreen">0</td>
+                    <td>-6940</td>
+                    <td>1423.2</td>
+                    <td>0</td>
+
+                </tr>
+                <tr class = "greybg">
+                    <td></td>
+                    <td>43412</td>
+                    <td>HO</td>
+                    <td>CE01</td>
+                    <td>FINNIFTY</td>
+                    <td>OPTIDX</td>
+                    <td>19-12-2023</td>
+                    <td>CE</td>
+                    <td>21650</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>260</td>
+                    <td>2189237</td>
+                    <td>480</td>
+                    <td>32706</td>
+                    <td class = "bggreen">0</td>
+                    <td class = "bggreen">0</td>
+                    <td>-6940</td>
+                    <td>1423.2</td>
+                    <td>0</td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>43412</td>
+                    <td>HO</td>
+                    <td>CE01</td>
+                    <td>FINNIFTY</td>
+                    <td>OPTIDX</td>
+                    <td>19-12-2023</td>
+                    <td>CE</td>
+                    <td>21650</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>260</td>
+                    <td>2189237</td>
+                    <td>480</td>
+                    <td>32706</td>
+                    <td class = "bggreen">0</td>
+                    <td class = "bggreen">0</td>
+                    <td>-6940</td>
+                    <td>1423.2</td>
+                    <td>0</td>
+
+                </tr>
+                <tr class = "greybg">
+                    <td></td>
+                    <td>43412</td>
+                    <td>HO</td>
+                    <td>CE01</td>
+                    <td>FINNIFTY</td>
+                    <td>OPTIDX</td>
+                    <td>19-12-2023</td>
+                    <td>CE</td>
+                    <td>21650</td>
+                    <td>0</td>
+                    <td>0</td>
+                    <td>260</td>
+                    <td>2189237</td>
+                    <td>480</td>
+                    <td>32706</td>
+                    <td class = "bggreen">0</td>
+                    <td class = "bggreen">0</td>
+                    <td>-6940</td>
+                    <td>1423.2</td>
+                    <td>0</td>
+
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+
+        </table>
+    </div>
+    
+    
+</body>
+
+</html>

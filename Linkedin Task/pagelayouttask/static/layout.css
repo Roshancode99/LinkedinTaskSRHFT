@@ -1,0 +1,128 @@
+
+.navbar {
+    background-color: rgb(232, 232, 232);
+  }
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin: 0 3px;
+  }
+  
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+.containercyan {
+  position: relative; /* Establish positioning context */
+  background-color: rgb(186, 248, 248);
+  height: 40px; /* Adjust the height */
+  border: 2px solid black;
+  border-radius: 1px;
+  color: black;
+  padding: 5px; /* Adding padding for spacing */
+  display: flex; /* Use flexbox */
+  flex-direction: row; /* Arrange elements in a row */
+  align-items: center; /* Align content vertically */
+  justify-content: space-between; /* Align items with space between */
+}
+
+.dropdown {
+  margin-top: 0px;
+  position: absolute; /* Position absolutely */
+  top: 0; /* Position from the top */
+  left: 0; /* Position from the left */
+  margin-right: 10px; /* Adjust margin if needed */
+}
+
+.direct {
+  display: flex; /* Use flexbox */
+  flex-direction: row; /* Arrange elements in a row */
+}
+
+.align1,
+.align2,
+.align3,
+.align4 {
+  display: flex; /* Use flexbox */
+  align-items: center; /* Align content vertically */
+  padding-left:15px ;
+  bottom: 15px;
+}
+
+.align4{
+  position: absolute;
+  right: 35px;
+}
+
+.align3{
+  position: absolute;
+  right: 190px;
+}
+
+.align1{
+  position: absolute;
+  right: 300px;
+}
+
+.align2{
+  position: absolute;
+  right: 460px;
+}
+
+
+
+.small-text {
+  font-size: 12px; /* Adjust the font size for numbers */
+}
+
+#fa{
+  background-color: white;
+  position: absolute;
+  left: 500px;
+  font-size: 40px;
+}
+
+.greencontainer{
+  margin-top: 1px;
+  height: 35px;
+  background-color: rgb(192, 251, 192);
+  border: 0.5px solid black;
+}
+
+.custom-table {
+  border-collapse: collapse;
+  font-size: 14px;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid black;
+}
+
+th{
+  width: 70px;
+}
+
+td{
+  width: 70px;
+  height: 15px;
+}
+
+.greybg{
+  background-color: rgb(201, 200, 200);
+}
+
+th{
+  background-color: cyan;
+}
+
+.bggreen{
+  background-color: rgb(138, 242, 138);
+}
+
